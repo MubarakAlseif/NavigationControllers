@@ -15,6 +15,15 @@
 		CCBA5A452729245000FD2ED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBA5A432729245000FD2ED4 /* LaunchScreen.storyboard */; };
 		CCBA5A4D2729261D00FD2ED4 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBA5A4C2729261D00FD2ED4 /* NavigationController.swift */; };
 		CCBA5A4F27292B7600FD2ED4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBA5A4E27292B7600FD2ED4 /* SecondViewController.swift */; };
+		CCBA5A5A2729499F00FD2ED4 /* SimpleNavItem.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBA5A512729499E00FD2ED4 /* SimpleNavItem.png */; };
+		CCBA5A5B2729499F00FD2ED4 /* BeefyNavItem.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBA5A522729499E00FD2ED4 /* BeefyNavItem.png */; };
+		CCBA5A5C2729499F00FD2ED4 /* StoryboardNavBar.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBA5A532729499E00FD2ED4 /* StoryboardNavBar.png */; };
+		CCBA5A5D2729499F00FD2ED4 /* NavHierarchyView.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBA5A542729499E00FD2ED4 /* NavHierarchyView.png */; };
+		CCBA5A5E2729499F00FD2ED4 /* StoryboardRootVC.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBA5A552729499F00FD2ED4 /* StoryboardRootVC.png */; };
+		CCBA5A5F2729499F00FD2ED4 /* StoryboardAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBA5A562729499F00FD2ED4 /* StoryboardAdd.png */; };
+		CCBA5A602729499F00FD2ED4 /* DrillDown.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBA5A572729499F00FD2ED4 /* DrillDown.png */; };
+		CCBA5A612729499F00FD2ED4 /* StoryboardSegue.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBA5A582729499F00FD2ED4 /* StoryboardSegue.png */; };
+		CCBA5A622729499F00FD2ED4 /* Stack.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBA5A592729499F00FD2ED4 /* Stack.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,15 @@
 		CCBA5A462729245000FD2ED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCBA5A4C2729261D00FD2ED4 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		CCBA5A4E27292B7600FD2ED4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CCBA5A512729499E00FD2ED4 /* SimpleNavItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimpleNavItem.png; sourceTree = "<group>"; };
+		CCBA5A522729499E00FD2ED4 /* BeefyNavItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BeefyNavItem.png; sourceTree = "<group>"; };
+		CCBA5A532729499E00FD2ED4 /* StoryboardNavBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StoryboardNavBar.png; sourceTree = "<group>"; };
+		CCBA5A542729499E00FD2ED4 /* NavHierarchyView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavHierarchyView.png; sourceTree = "<group>"; };
+		CCBA5A552729499F00FD2ED4 /* StoryboardRootVC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StoryboardRootVC.png; sourceTree = "<group>"; };
+		CCBA5A562729499F00FD2ED4 /* StoryboardAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StoryboardAdd.png; sourceTree = "<group>"; };
+		CCBA5A572729499F00FD2ED4 /* DrillDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DrillDown.png; sourceTree = "<group>"; };
+		CCBA5A582729499F00FD2ED4 /* StoryboardSegue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StoryboardSegue.png; sourceTree = "<group>"; };
+		CCBA5A592729499F00FD2ED4 /* Stack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stack.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +78,34 @@
 		CCBA5A372729245000FD2ED4 /* NavigationControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CCBA5A502729496800FD2ED4 /* Images */,
 				CCBA5A382729245000FD2ED4 /* AppDelegate.swift */,
 				CCBA5A3A2729245000FD2ED4 /* SceneDelegate.swift */,
+				CCBA5A4C2729261D00FD2ED4 /* NavigationController.swift */,
 				CCBA5A3C2729245000FD2ED4 /* ViewController.swift */,
+				CCBA5A4E27292B7600FD2ED4 /* SecondViewController.swift */,
 				CCBA5A3E2729245000FD2ED4 /* Main.storyboard */,
 				CCBA5A412729245000FD2ED4 /* Assets.xcassets */,
 				CCBA5A432729245000FD2ED4 /* LaunchScreen.storyboard */,
 				CCBA5A462729245000FD2ED4 /* Info.plist */,
-				CCBA5A4C2729261D00FD2ED4 /* NavigationController.swift */,
-				CCBA5A4E27292B7600FD2ED4 /* SecondViewController.swift */,
 			);
 			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
+		CCBA5A502729496800FD2ED4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CCBA5A522729499E00FD2ED4 /* BeefyNavItem.png */,
+				CCBA5A572729499F00FD2ED4 /* DrillDown.png */,
+				CCBA5A542729499E00FD2ED4 /* NavHierarchyView.png */,
+				CCBA5A512729499E00FD2ED4 /* SimpleNavItem.png */,
+				CCBA5A592729499F00FD2ED4 /* Stack.png */,
+				CCBA5A562729499F00FD2ED4 /* StoryboardAdd.png */,
+				CCBA5A532729499E00FD2ED4 /* StoryboardNavBar.png */,
+				CCBA5A552729499F00FD2ED4 /* StoryboardRootVC.png */,
+				CCBA5A582729499F00FD2ED4 /* StoryboardSegue.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,9 +166,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCBA5A612729499F00FD2ED4 /* StoryboardSegue.png in Resources */,
+				CCBA5A5C2729499F00FD2ED4 /* StoryboardNavBar.png in Resources */,
+				CCBA5A622729499F00FD2ED4 /* Stack.png in Resources */,
+				CCBA5A5B2729499F00FD2ED4 /* BeefyNavItem.png in Resources */,
 				CCBA5A452729245000FD2ED4 /* LaunchScreen.storyboard in Resources */,
+				CCBA5A602729499F00FD2ED4 /* DrillDown.png in Resources */,
 				CCBA5A422729245000FD2ED4 /* Assets.xcassets in Resources */,
+				CCBA5A5A2729499F00FD2ED4 /* SimpleNavItem.png in Resources */,
+				CCBA5A5E2729499F00FD2ED4 /* StoryboardRootVC.png in Resources */,
 				CCBA5A402729245000FD2ED4 /* Main.storyboard in Resources */,
+				CCBA5A5F2729499F00FD2ED4 /* StoryboardAdd.png in Resources */,
+				CCBA5A5D2729499F00FD2ED4 /* NavHierarchyView.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
