@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var first: UILabel!
     
     
-    var check = false
+    var check = true
     
     let titleNeedToPass = "This is the Second"
     
@@ -43,13 +43,19 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func toThird(_ sender: Any) {
+        
+        performSegue(withIdentifier: Suges.Third.rawValue, sender: nil)
+        
+        
+    }
     @IBAction func goToSecondScreen(_ sender: UIButton) {
        
         if check {
             performSegue(withIdentifier: Suges.SecondViewController.rawValue, sender: nil)
             
         } else {
-            performSegue(withIdentifier: Suges.Third.rawValue, sender: nil)
+            
             
         }
         
