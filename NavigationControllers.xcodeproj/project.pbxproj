@@ -13,6 +13,8 @@
 		CCBA5A402729245000FD2ED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBA5A3E2729245000FD2ED4 /* Main.storyboard */; };
 		CCBA5A422729245000FD2ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBA5A412729245000FD2ED4 /* Assets.xcassets */; };
 		CCBA5A452729245000FD2ED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBA5A432729245000FD2ED4 /* LaunchScreen.storyboard */; };
+		CCBA5A4D2729261D00FD2ED4 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBA5A4C2729261D00FD2ED4 /* NavigationController.swift */; };
+		CCBA5A4F27292B7600FD2ED4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBA5A4E27292B7600FD2ED4 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CCBA5A412729245000FD2ED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCBA5A442729245000FD2ED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCBA5A462729245000FD2ED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBA5A4C2729261D00FD2ED4 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		CCBA5A4E27292B7600FD2ED4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CCBA5A412729245000FD2ED4 /* Assets.xcassets */,
 				CCBA5A432729245000FD2ED4 /* LaunchScreen.storyboard */,
 				CCBA5A462729245000FD2ED4 /* Info.plist */,
+				CCBA5A4C2729261D00FD2ED4 /* NavigationController.swift */,
+				CCBA5A4E27292B7600FD2ED4 /* SecondViewController.swift */,
 			);
 			path = NavigationControllers;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCBA5A3D2729245000FD2ED4 /* ViewController.swift in Sources */,
+				CCBA5A4D2729261D00FD2ED4 /* NavigationController.swift in Sources */,
 				CCBA5A392729245000FD2ED4 /* AppDelegate.swift in Sources */,
+				CCBA5A4F27292B7600FD2ED4 /* SecondViewController.swift in Sources */,
 				CCBA5A3B2729245000FD2ED4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
